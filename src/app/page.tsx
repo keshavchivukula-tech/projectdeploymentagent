@@ -22,15 +22,15 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen p-8 max-w-7xl mx-auto space-y-12 animate-fade-in relative z-10">
       {/* Header */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-        <div>
-          <h1 className="text-[32px] font-bold tracking-[-0.03em] text-[#1A1F36] mb-1.5 line-height-tight">Keshav Deployment tool</h1>
-          <p className="text-[15px] text-[#4F566B] font-medium leading-relaxed max-w-xl">
-            Automate your release cycle with enterprise-grade deployment orchestration and real-time monitoring.
+      <div className="flex flex-col items-center text-center gap-8">
+        <div className="max-w-2xl">
+          <h1 className="text-[42px] md:text-[48px] font-bold tracking-[-0.03em] text-[#1A1F36] mb-3 leading-tight">My Deployment Agent</h1>
+          <p className="text-[17px] text-[#4F566B] font-medium leading-relaxed">
+            Automated Enterprise Release Monitoring
           </p>
         </div>
         <Link href="/deploy">
-          <Button className="font-bold gap-2.5 h-11 px-8 rounded-xl bg-[#635BFF] shadow-[0_1px_1px_rgba(0,0,0,0.1),0_8px_16px_rgba(99,91,255,0.2)] hover:bg-[#5850EC] transition-all hover:-translate-y-0.5 active:translate-y-0">
+          <Button className="font-bold gap-2.5 h-12 px-10 rounded-xl bg-[#635BFF] shadow-[0_1px_1px_rgba(0,0,0,0.1),0_8px_16px_rgba(99,91,255,0.2)] hover:bg-[#5850EC] transition-all hover:-translate-y-0.5 active:translate-y-0 text-white">
             <Plus size={18} />
             New Deployment
           </Button>
