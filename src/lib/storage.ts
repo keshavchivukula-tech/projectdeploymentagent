@@ -16,7 +16,7 @@ export interface LogEntry {
   message: string
 }
 
-const STORAGE_KEY = "keshav_deployments"
+const STORAGE_KEY = "keshav_deployments_v2"
 
 // Initial mock data to ensure the dashboard isn't empty
 const MOCK_DATA: Deployment[] = [
