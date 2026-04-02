@@ -84,7 +84,7 @@ export default function DeploymentDetailsPage() {
     <div className="min-h-screen p-8 max-w-5xl mx-auto space-y-10 animate-fade-in relative z-10 text-[#1A1F36]">
       {/* Navigation */}
       <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground hover:text-foreground h-10 px-4 rounded-xl hover:bg-white transition-all">
-        <Link href="/">
+        <Link href="/" style={{ color: '#1A1F36', display: 'flex', alignItems: 'center', gap: '8px' }}>
           <ArrowLeft size={18} />
           <span className="font-bold text-[14px]">Back to Dashboard</span>
         </Link>

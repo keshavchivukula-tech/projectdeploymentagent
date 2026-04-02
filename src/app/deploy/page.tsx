@@ -461,7 +461,8 @@ export default function DeployPage() {
             variant="secondary" 
             onClick={handleBack}
             disabled={isDeploying}
-            className="font-bold h-11 px-8 text-[#1A1F36]"
+            className="font-bold h-11 px-8"
+            style={{ color: '#1A1F36', border: '1px solid #E6EBF1' }}
           >
             {currentStep === 0 ? "Dashboard" : "Back"}
           </Button>

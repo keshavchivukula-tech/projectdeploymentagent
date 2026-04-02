@@ -109,7 +109,12 @@ export default function DashboardPage() {
                       </Button>
                     )}
                     <Link href={`/deployments/${dep.id}`} className="flex-1 md:flex-initial">
-                      <Button variant="secondary" size="sm" className="w-full gap-2 h-9 px-4 font-bold bg-[#F6F9FC] text-foreground hover:bg-[#EFF2F5]">
+                      <Button 
+                        variant="secondary" 
+                        size="sm" 
+                        className="w-full gap-2 h-9 px-4 font-bold bg-[#F6F9FC]"
+                        style={{ color: '#1A1F36', border: '1px solid #E6EBF1' }}
+                      >
                         Details
                         <ChevronRight size={14} />
                       </Button>
