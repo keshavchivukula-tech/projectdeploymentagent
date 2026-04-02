@@ -12,14 +12,34 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#4F46E5",
-          foreground: "#FFFFFF",
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
+        },
+        secondary: {
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
+        },
+        muted: {
+          DEFAULT: "var(--muted)",
+          foreground: "var(--muted-foreground)",
+        },
+        accent: {
+          DEFAULT: "var(--accent)",
+          foreground: "var(--accent-foreground)",
+        },
+        destructive: {
+          DEFAULT: "var(--destructive)",
+          foreground: "var(--destructive-foreground)",
         },
         card: {
-          DEFAULT: "rgba(17, 24, 39, 0.7)",
-          foreground: "#F9FAFB",
-          border: "rgba(255, 255, 255, 0.1)",
+          DEFAULT: "var(--card)",
+          foreground: "var(--card-foreground)",
+          border: "var(--border)",
         },
+        border: "var(--border)",
+        input: "var(--input)",
+        ring: "var(--ring)",
+        "divider-subtle": "var(--divider-subtle)",
       },
       borderRadius: {
         lg: "var(--radius)",

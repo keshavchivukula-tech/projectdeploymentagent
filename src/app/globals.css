@@ -30,6 +30,12 @@
   --foreground: #F9FAFB;
   --card: #111827;
   --card-foreground: #F9FAFB;
+  --secondary: #1F2937;
+  --secondary-foreground: #AAB7C4;
+  --muted: #1F2937;
+  --muted-foreground: #AAB7C4;
+  --accent: #1F2937;
+  --accent-foreground: #F9FAFB;
   --border: rgba(255, 255, 255, 0.1);
   --input: rgba(255, 255, 255, 0.05);
 }

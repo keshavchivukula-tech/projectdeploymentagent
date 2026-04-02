@@ -426,7 +426,7 @@ export default function DeployPage() {
     <div className="min-h-screen p-8 max-w-4xl mx-auto space-y-12 animate-fade-in relative z-10 text-[#1A1F36]">
       {/* Header */}
       <div className="flex items-center gap-5">
-        <Button variant="ghost" size="icon" onClick={handleBack} className="text-[#697386] hover:text-[#1A1F36] rounded-xl hover:bg-[#F6F9FC]">
+        <Button variant="ghost" size="icon" onClick={handleBack} className="text-muted-foreground hover:text-foreground rounded-xl hover:bg-secondary">
           <ArrowLeft size={22} />
         </Button>
         <div>

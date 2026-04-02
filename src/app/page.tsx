@@ -79,7 +79,7 @@ export default function DashboardPage() {
                         {dep.status}
                       </Badge>
                     </div>
-                    <div className="flex items-center gap-4 text-[13px] text-[#697386] font-medium">
+                    <div className="flex items-center gap-4 text-[13px] text-muted-foreground font-medium">
                       <div className="flex items-center gap-1.5">
                         <Github size={14} className="opacity-60" />
                         <span className="truncate">{dep.repo}</span>

@@ -83,7 +83,7 @@ export default function DeploymentDetailsPage() {
   return (
     <div className="min-h-screen p-8 max-w-5xl mx-auto space-y-10 animate-fade-in relative z-10 text-[#1A1F36]">
       {/* Navigation */}
-      <Button variant="ghost" size="sm" asChild className="gap-2 text-[#697386] hover:text-[#1A1F36] h-10 px-4 rounded-xl hover:bg-white transition-all">
+      <Button variant="ghost" size="sm" asChild className="gap-2 text-muted-foreground hover:text-foreground h-10 px-4 rounded-xl hover:bg-white transition-all">
         <Link href="/">
           <ArrowLeft size={18} />
           <span className="font-bold text-[14px]">Back to Dashboard</span>
