@@ -461,7 +461,7 @@ export default function DeployPage() {
             variant="secondary" 
             onClick={handleBack}
             disabled={isDeploying}
-            className="font-bold h-11 px-8"
+            className="font-bold h-11 px-8 text-[#1A1F36]"
           >
             {currentStep === 0 ? "Dashboard" : "Back"}
           </Button>
