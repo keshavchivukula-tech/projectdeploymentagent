@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F9FC; /* Stripe Slate White */
+  --foreground: #1A1F36; /* Deep Navy Black */
+  --card: #FFFFFF;
+  --card-foreground: #1A1F36;
+  --primary: #635BFF; /* Stripe/Modern Purple-Indigo */
+  --primary-foreground: #FFFFFF;
+  --secondary: #F6F9FC;
+  --secondary-foreground: #4F566B;
+  --muted: #F6F9FC;
+  --muted-foreground: #697386;
+  --accent: #E6EBF1;
+  --accent-foreground: #1A1F36;
+  --destructive: #DF1B41;
+  --destructive-foreground: #FFFFFF;
+  --border: #E6EBF1;
+  --input: #E6EBF1;
+  --ring: #635BFF;
+  --radius: 0.75rem;
+  --divider-subtle: rgba(60, 66, 87, 0.08);
+  --primary-glow: rgba(99, 91, 255, 0.15);
+}
+
+.dark {
+  --background: #0B0F19; /* Dark Navy */
+  --foreground: #F9FAFB;
+  --card: #111827;
+  --card-foreground: #F9FAFB;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.05);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
