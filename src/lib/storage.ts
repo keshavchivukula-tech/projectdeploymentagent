@@ -37,13 +37,15 @@ const MOCK_DATA: Deployment[] = [
     id: "dep-2",
     project: "E-commerce Engine",
     repo: "company/store",
-    status: "running",
+    status: "success",
     framework: "Next.js",
-    updatedAt: "Now",
+    url: "https://ecommerce-v2.vercel.app",
+    updatedAt: "10 min ago",
     logs: [
       { id: "1", timestamp: "16:40:01", level: "info", message: "Fetching source from company/store..." },
       { id: "2", timestamp: "16:40:45", level: "info", message: "Installing dependencies..." },
-      { id: "3", timestamp: "16:42:10", level: "info", message: "Running production build..." }
+      { id: "3", timestamp: "16:42:10", level: "success", message: "Production build completed." },
+      { id: "4", timestamp: "16:42:15", level: "info", message: "Live at: https://ecommerce-v2.vercel.app" }
     ]
   },
   {
