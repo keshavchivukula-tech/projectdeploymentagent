@@ -224,7 +224,7 @@ export default function DeployPage() {
         )
       case 1:
         return (
-          <div className="space-y-6 text-gray-50">
+          <div className="space-y-6 text-[#1A1F36]">
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 bg-gray-50 text-gray-900 rounded-lg">
                 <Github size={24} />
@@ -322,7 +322,7 @@ export default function DeployPage() {
             
             <div className="space-y-3 max-h-[300px] overflow-y-auto pr-2">
               {formData.envVars.map((env, idx) => (
-                <div key={idx} className="flex gap-2 items-end group animate-fade-in text-gray-50">
+                <div key={idx} className="flex gap-2 items-end group animate-fade-in text-[#1A1F36]">
                   <div className="flex-1">
                     <Input 
                       placeholder="KEY" 
